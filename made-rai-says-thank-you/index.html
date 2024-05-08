@@ -649,6 +649,41 @@
 <body
     class="post-template-default single single-post postid-2462 single-format-standard wp-embed-responsive no-touch header-over hide-author sidebar-navigation hover-overlay stagtools"
     data-layout="">
+<style>
+    .dropdown-content {
+        display: none;
+        position: absolute; / Position absolute /
+    }
+
+    .dropdown > a {
+        display: inline-block;
+        text-decoration: none;
+        color: #333;
+        position: relative; / Position relative /
+    }
+
+    .dropdown-content li {
+        display: block;
+        border-bottom: 0;
+        padding: 0;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown-content a {
+        display: block;
+        text-decoration: none;
+        color: #494545;
+    }
+
+    .dropdown-content a:hover {
+        color: rgba(249,116,17,1);
+        text-decoration: underline;
+    }
+
+</style>
 
 <nav class="site-nav" role="complementary">
     <div class="site-nav--scrollable-container">
@@ -676,6 +711,13 @@
                     href="../artists/">Artists</a></li>
                 <li id="menu-item-718" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-718"><a
                     href="../contact-us/">Contact Us</a></li>
+                <li class=" dropdown menu-item menu-item-type-post_type menu-item-object-page menu-item-718">
+                    <a href="#">Cities</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Ho Chi Minh</a></li>
+                        <li><a href="#">Ha Noi</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav><!-- #site-navigation -->
 
