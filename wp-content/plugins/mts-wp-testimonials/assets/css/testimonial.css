@@ -2,7 +2,9 @@
  * WP Testimonials Plugin by MyThemeShop
  * https://mythemeshop.com/plugins/wp-testimonials/
  */
-@font-face { font-family: 'font-icons'; src: url('/web/20220415102450im_/https://www.theorchardbali.com/wp-content/plugins/mts-wp-testimonials/assets/fonts/font-icons.eot'); src: url('/web/20220415102450im_/https://www.theorchardbali.com/wp-content/plugins/mts-wp-testimonials/assets/fonts/font-icons.eot') format('embedded-opentype'), url('/web/20220415102450im_/https://www.theorchardbali.com/wp-content/plugins/mts-wp-testimonials/assets/fonts/font-icons.woff') format('woff'), url('/web/20220415102450im_/https://www.theorchardbali.com/wp-content/plugins/mts-wp-testimonials/assets/fonts/font-icons.ttf') format('truetype'), url('/web/20220415102450im_/https://www.theorchardbali.com/wp-content/plugins/mts-wp-testimonials/assets/fonts/font-icons.svg') format('svg'); font-weight: normal; font-style: normal; }
+@font-face {
+    font-family: 'font-icons';
+    font-weight: normal; font-style: normal; }
 .font-icons-star:before { font-family: "font-icons"; content: '\e800'; font-style: normal; font-weight: normal; speak: none; display: inline-block; text-decoration: inherit; width: 1em; margin-right: 0; text-align: center; font-variant: normal; text-transform: none; line-height: 1em; margin-left: 2px; }
 #mts-testimonials h2 { font-size: 25px; margin-top: 40px; float: left; width: 100%; clear: both; }
 #mts-testimonials h3 { font-size: 23px; margin-top: 20px; margin-bottom: 40px; text-align: center; float: none; width: 100%; clear: both; }
